@@ -1,0 +1,27 @@
+{
+    "name"           : "@will-beaumont/animate.css-dynamic",
+    "version"        : "3.1.0",
+    "description"    : "=",
+    "homepage"       : "https://github.com/rhaglennydd/animate.css-dynamic#readme",
+    "bugs"           : {
+        "url": "https://github.com/rhaglennydd/animate.css-dynamic/issues"
+    },
+    "repository"     : {
+        "type": "git",
+        "url" : "git+https://github.com/rhaglennydd/animate.css-dynamic.git"
+    },
+    "license"        : "ISC",
+    "author"         : "Will Beaumont",
+    "type"           : "module",
+    "main"           : "animate.js",
+    "devDependencies": {
+        "@eslint/js"            : "^9.19.0",
+        "eslint"                : "^9",
+        "eslint-config-prettier": "^10.0.1",
+        "globals"               : "^15.14.0",
+        "terser"                : "^5"
+    },
+    "scripts"        : {
+        "build": "terser animate.js -cm --comments --keep-classnames --source-map -o animate.min.js"
+    }
+}

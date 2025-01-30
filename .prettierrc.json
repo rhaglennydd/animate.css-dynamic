@@ -1,0 +1,11 @@
+{
+    "bracketSameLine": true,
+    "bracketSpacing" : false,
+    "endOfLine"      : "lf",
+    "overrides"      : [
+        {
+            "files": ["*.js", "*.mjs"]
+        }
+    ],
+    "tabWidth"       : 4
+}
